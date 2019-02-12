@@ -3,7 +3,7 @@
 API
 ===
 
-Import Scanpy's high-level API as::
+Import epiScanpy's high-level API as::
 
    import episcanpy.api as epi
 
