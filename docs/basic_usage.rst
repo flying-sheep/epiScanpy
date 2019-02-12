@@ -3,7 +3,7 @@ Usage Principles
 
 We reuse a lot of the Scanpy functions "out of the box". To this end we need to import Scanpy and Anndata
 
-Import the Scanpy API as::
+Import the epiScanpy API as::
 
     import episcanpy.api as epi
     import anndata as ad
