@@ -51,7 +51,7 @@ def prct_overlap(adata, key_1, key_2, color="Blues", norm=False, ax_norm="line",
               I haven't figure out how to make it for mow.
               , here is the heatmap with no normalisation""")
             
-    if , sort_index:
+    if sort_index:
         data_heatmap = pd.DataFrame(data=np.matrix(total_matrix),
                                     index=list(set(data_1)),
                                     columns=sorted(list(set(data_2)))).sort_index()
