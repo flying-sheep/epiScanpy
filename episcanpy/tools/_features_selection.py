@@ -1,6 +1,6 @@
 import scanpy.api as sc
 
-def tl.rank_features(adata, groupby, use_raw=True, groups='all', reference='rest', n_genes=100,
+def rank_features(adata, groupby, use_raw=True, groups='all', reference='rest', n_genes=100,
                      rankby_abs=False, key_added=None, copy=False, method='',
                      corr_method='benjamini-hochberg', **kwds)
 
