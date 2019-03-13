@@ -1,6 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.axes as pltax
+import numpy as np
 import anndata as ad
 
 def coverage_cells(adata, bins=50, key_added=None):
