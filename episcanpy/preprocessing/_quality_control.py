@@ -31,6 +31,6 @@ def commoness_features(adata, threshold=None, bw=0.5, key_added=None):
 
     if threshold != None:
         plt.axvline(x=threshold, color='r')
-        
+    bw_param = bw
     sns.set_style('whitegrid')
-    sns.kdeplot(np.array(adata.var[key_added]), bw)
+    sns.kdeplot(np.array(adata.var[key_added]), bw=bw_param)
