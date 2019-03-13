@@ -34,3 +34,17 @@ def commoness_features(adata, threshold=None, bw=0.5, key_added=None):
     bw_param = bw
     sns.set_style('whitegrid')
     sns.kdeplot(np.array(adata.var[key_added]), bw=bw_param)
+    
+    
+def binarize(adata, copy=False):
+    # convert into a binary matrix
+    threshold, upper, lower = 1.0, 1.0, 0.0
+    admatrix = adata.X
+    admatrix = np.where(admatrix>threshold, upper, lower)
+    if copy:
+        adata2 = adata.copy()
+        adata2.X = admatrix
+        return(adata2)
+    else:
+        adata.X = admatrix
+        
