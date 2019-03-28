@@ -14,7 +14,8 @@ except ImportError:  # Deps not yet installed
 
 setup(
     name='episcanpy',
-    version=versioneer.get_version(),
+    #version=versioneer.get_version(),
+    version='0.0.1',
     cmdclass=versioneer.get_cmdclass(),
     description='Epigenomics Single-Cell Analysis in Python.',
     long_description=Path('README.rst').read_text('utf-8'),
