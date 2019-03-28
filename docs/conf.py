@@ -143,7 +143,7 @@ html_theme_options = dict(
 html_context = dict(
     display_github=True,      # Integrate GitHub
     github_user='AnnaDanese',   # Username
-    github_repo='episcanpy',     # Repo name
+    github_repo='epiScanpy',     # Repo name
     github_version='master',  # Version
     conf_py_path='/docs/',    # Path in the checkout to the docs root
 )
@@ -209,7 +209,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'episcanpy', 'episcanpy Documentation',
+    (master_doc, 'epiScanpy', 'epiScanpy Documentation',
      [author], 1)
 ]
 
@@ -220,8 +220,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'episcanpy', 'episcanpy Documentation',
-     author, 'episcanpy', 'One line description of project.',
+    (master_doc, 'epiScanpy', 'epiScanpy Documentation',
+     author, 'epiScanpy', 'One line description of project.',
      'Miscellaneous'),
 ]
 
