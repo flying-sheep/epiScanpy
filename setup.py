@@ -20,7 +20,7 @@ setup(
     description='Epigenomics Single-Cell Analysis in Python.',
     long_description=Path('README.rst').read_text('utf-8'),
     url='http://github.com/DaneseAnna/epiScanpy',
-    download_url='https://github.com/DaneseAnna/epiScanpy/archive/v_01.tar.gz',
+    download_url='https://github.com/DaneseAnna/epiScanpy/archive/01.01.tar.gz',
     author=__author__,
     author_email=__email__,
     license='BSD',
