@@ -3,7 +3,7 @@
 
 import time as time_module
 import datetime
-from anndata import logging
+#from anndata import logging
 from . import settings
 
 
