@@ -34,21 +34,21 @@ def lazy(adata, pp_pca=True, copy=False):
     
     
     '''
-  if copy:
-    adata = adata.copy() 
-  else:
-    adata
+    if copy:
+        adata = adata.copy() 
+    else:
+        adata
 
-  if pp_pca:
-    sc.pp.pca(adata)
+    if pp_pca:
+        sc.pp.pca(adata)
     
-  sc.pp.neighbors(adata)
-  sc.tl.pca(adata)
-  sc.tl.tsne(adata)
-  sc.tl.umap(adata)
+    sc.pp.neighbors(adata)
+    sc.tl.pca(adata)
+    sc.tl.tsne(adata)
+    sc.tl.umap(adata)
     
-  if copy:
-    return(adata)
-  else:
+    if copy:
+        return(adata)
+    else:
         None
   
