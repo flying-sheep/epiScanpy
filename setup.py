@@ -1,6 +1,6 @@
 import sys
 if sys.version_info < (3,):
-    sys.exit('episcanpy requires Python >= 3.5')
+    sys.exit('epiScanpy requires Python >= 3.5')
 from pathlib import Path
 
 from setuptools import setup, find_packages
@@ -18,7 +18,7 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     description='Epigenomics Single-Cell Analysis in Python.',
     long_description=Path('README.rst').read_text('utf-8'),
-    url='http://github.com/DaneseAnna/Episcanpy',
+    url='http://github.com/DaneseAnna/epiScanpy',
     author=__author__,
     author_email=__email__,
     license='BSD',
