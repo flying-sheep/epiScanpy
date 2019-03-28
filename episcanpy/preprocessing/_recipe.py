@@ -34,7 +34,10 @@ def lazy(adata, pp_pca=True, copy=False):
     
     
     '''
-  adata = adata.copy() if copy else adata
+  if copy:
+    adata = adata.copy() 
+  else:
+    adata
 
   if pp_pca:
     sc.pp.pca(adata)
@@ -44,5 +47,8 @@ def lazy(adata, pp_pca=True, copy=False):
   sc.tl.tsne(adata)
   sc.tl.umap(adata)
     
-  return adata if copy else None
+  if copy:
+    return(adata)
+  else:
+        None
   
