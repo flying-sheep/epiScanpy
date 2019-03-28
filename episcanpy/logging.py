@@ -128,10 +128,10 @@ def _sec_to_str(t):
                [(t*100,), 100, 60, 60])
 
 
-print_memory_usage = logging.print_memory_usage
+#print_memory_usage = logging.print_memory_usage
 
 
-get_memory_usage = logging.get_memory_usage
+#get_memory_usage = logging.get_memory_usage
 
 
 def get_passed_time():
