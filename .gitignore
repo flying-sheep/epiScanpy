@@ -11,7 +11,6 @@ figures/
 cache/
 coverage.xml
 episcanpy.egg-info/
-*.rst
 README.html
 
 # always-ignore extensions
