@@ -8,12 +8,14 @@ figures/
 cache/
 coverage.xml
 episcanpy.egg-info/
+*.rst
 
 # always-ignore extensions
 *~
 
 # Python / Byte-compiled / optimized / DLL
 __pycache__/
+episcanpy/__pycache__/
 *.py[cod]
 *.so
 .cache
@@ -28,3 +30,7 @@ Thumbs.db
 # always-ignore directories
 /dist/
 /build/
+/_build/
+/_static/
+/_templates/
+/__pycache__/
